@@ -13,7 +13,7 @@
   
   <p>
     <br>
-    [Project Euler](https://projecteuler.net/archives) is a series of challenging mathematical/computer programming problems 
+    <a href="https://projecteuler.net/archives">Project Euler</a> is a series of challenging mathematical/computer programming problems 
     that will require more than just mathematical insights to solve. 
     Although mathematics will help you arrive at elegant and efficient methods, 
     the use of a computer and programming skills will be required to solve most problems.
@@ -38,7 +38,7 @@
   
   <p>
     <br>
-    [Проект Эйлер](https://euler.jakumo.org/problems) — это серия сложных математических и вычислительных задач, 
+    <a href="https://euler.jakumo.org/problems">Проект Эйлер</a> — это серия сложных математических и вычислительных задач, 
     для решения которых недостаточно одних только математических знаний. 
     Хотя математика поможет находить изящные решения, 
     большинство задач потребуют навыков программирования для их практической реализации.
