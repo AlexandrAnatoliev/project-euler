@@ -22,6 +22,65 @@
   </p>
 </div>
 
+  > **Author:** Alexandr Anatoliev
+
+  > **GitHub:** [AlexandrAnatoliev](https://github.com/AlexandrAnatoliev)
+
+---
+
+<div align="center">
+  <h2>Installation</h2>
+</div>
+
+* Clone the repository:
+```
+git clone https://github.com/AlexandrAnatoliev/project-euler
+```
+
+* Navigate to the root:
+```
+cd project-euler/
+```
+
+---
+
+<div align="center">
+  <h2>Uninstallation</h2>
+</div>
+
+* To uninstall repository:
+```
+rm -rf project-euler
+```
+
+---
+
+<div align="center">
+  <h2>Files Structure</h2>
+</div>
+
+```
+project-euler 
+└── README.md
+```
+ 
+---
+
+<div align="center">
+  <h2>Requirements</h2>
+</div>
+ 
+* Java installed
+
+---
+
+<div align="center">
+  <h2>Compatibility</h2>
+</div>
+ 
+* Java 8 and above
+
+---
 
 <div align="center">
 
@@ -49,3 +108,9 @@
     <li>Создать свой первый пул-реквест</li>
   </p>
 </div>
+
+  > **Author:** Alexandr Anatoliev
+
+  > **GitHub:** [AlexandrAnatoliev](https://github.com/AlexandrAnatoliev)
+
+---
