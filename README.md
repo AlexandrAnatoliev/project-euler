@@ -73,13 +73,15 @@
   GitHub account.
 
 <div align="center">
-  <img src="/images/fork-button.png" width="620">
+  <img src="/images/fork-button.png">
 </div>
 
 2. Clone your forked repository by clicking the 
   "Code" button:
 
-![Code](/images/code.png)
+<div align="center">
+  <img src="/images/code-button.png">
+</div>
 
 That will open this small window:
 
