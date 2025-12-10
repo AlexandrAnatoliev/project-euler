@@ -77,7 +77,7 @@
 2. Clone your forked repository by clicking the 
   "Code" button:
 
-![Code](/images/code.png)
+![Code](/images/code.png){"width=620"}
 
 That will open this small window:
 
