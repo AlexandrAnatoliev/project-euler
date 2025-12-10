@@ -85,7 +85,9 @@
 
 That will open this small window:
 
-![Clone](/images/git-clone.png)
+<div align="center">
+  <img src="/images/clone-window.png">
+</div>
 
 After that you can copy and paste the URL to the 
   your local machine with the command:
