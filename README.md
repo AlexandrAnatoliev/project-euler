@@ -34,37 +34,19 @@
   <h2>Table of Contents</h2>
 </div>
 
-* [Quick Start](#quick-start)
-  - [Setup Instructions](#setup-instructions)
-  - [Problems](#problems)
-  - [Submitting Your Changes](#submitting-your-changes)
-* [Installation](#installation)
-* [Uninstallation](#uninstallation)
-* [Files Structure](#files-structure)
+* [Setup Instructions](#setup-instructions)
+* [Problems](#problems)
+* [Submitting Your Changes](#submitting-your-changes)
+* [Influences](#influences)
+* [Contact](#contact)
 * [Requirements](#requirements)
-* [Compatibility](#compatibility)
-
----
-
-<div align="center">
-  <a id="quick-start"></a>
-  <h2>Quick Start</h2>
-</div>
-
-1. Go to [Setup Instructions](#setup-instructions) 
-   and follow the instructions about how to start 
-   working with the project.
-2. Go to [Problems](#problems) and choose a problem you 
-  want to work on.  
-3. Go to [Submitting Your Changes](#submitting-your-changes) 
-  and follow the instructions about how to submit 
-  your changes.
+* [List of contributors](#list-of-contributors)
 
 ---
 
 <div align="center">
   <a id="setup-instructions"></a>
-  <h3>Setup Instructions</h3>
+  <h2>Setup Instructions</h2>
 </div>
 
 1. Fork this repository by clicking on the "Fork" 
@@ -149,51 +131,168 @@ possible merge conflicts._
 
 <div align="center">
   <a id="problems"></a>
-  <h3>Problems</h3>
+  <h2>Problems</h2>
 </div>
 
-We present over 130 several tasks for different languages, libraries and frameworks with varying difficulty. You can choose which task you want to work with and which difficulty you want to solve. You can also choose to solve multiple tasks if you want to. Just remember to create a new branch for each task you solve.
+Project Euler are over 800 several problems 
+with varying difficulty. You can choose which 
+problem you want to work with and which difficulty 
+you want to solve. You can also choose to solve 
+multiple problems if you want to. Just remember 
+to create a new branch for each problem you solve.
 
-Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
-<div align="center">
-  <a id="installation"></a>
-  <h2>Installation</h2>
-</div>
-
-* Clone the repository:
-```
-git clone https://github.com/AlexandrAnatoliev/project-euler
-```
-
-* Navigate to the root:
-```
-cd project-euler/
-```
-
----
-
-<div align="center">
-  <a id="uninstallation"></a>
-  <h2>Uninstallation</h2>
-</div>
-
-* To uninstall repository:
-```
-rm -rf project-euler
-```
-
----
-
-<div align="center">
-  <a id="files-structure"></a>
-  <h2>Files Structure</h2>
-</div>
-
+Firstly, select which problem you want to work 
+with and open the `problem` directory:
 ```
 project-euler 
+├── problem1/
+│   └── README.md
+├── problem2/
+│   └── README.md
+├── problem3/
+│   └── README.md
 └── README.md
 ```
- 
+
+Go to the README file of problem you selected 
+to get more info about the issue.
+
+Create directory for your solve in format:
+```
+problem[number]-[your github nickname]/
+```
+
+For example:
+```
+project-euler 
+├── problem1/
+│   ├── problem1-user1/
+│   ├── problem1-username2/
+│   ├── problem1-IvanIvanov/
+│   │     ^
+│   │     └── directory for your solve
+│   └── README.md
+├── problem2/
+│   ├── problem2-user1/
+│   └── README.md
+└── README.md
+```
+After that you are ready to get solving!
+
+_Note: You don't have to ask a permission 
+to start solving the issue or get assigned, 
+since these issues are supposed to always 
+be open for new contributors. You can just 
+simply start working with the issue right away! 
+Remember that in real world issues you would 
+usually need to ask to get assigned to certain 
+issue to prevent multiple people to working on 
+the same issue at the same time, which would 
+result some contributors wasting their time._
+
+---
+
+<div align="center">
+  <a id="submitting-your-changes"></a>
+  <h2>Submitting Your Changes</h2>
+</div>
+
+Once you've made the necessary changes requested 
+in the problem, you're ready to submit your changes!
+
+1. Stage your changes with the command:
+
+```bash
+git add files-that-you-changed
+```
+
+2. Commit your changes with the command:
+
+```bash
+git commit -m "Fixed issue"
+```
+
+3. Push your changes to your forked repository 
+with the command:
+
+```bash
+git push origin fix-issue
+```
+
+Once you've pushed your changes to GitHub, 
+you're ready to create a pull request. 
+Go to your forked repository on GitHub.
+
+- You should see text "fix-issue had recent pushes" 
+(or whatever your branch name is) and button 
+"Compare & pull request" next to it.
+
+![Compare & Pull request](/images/compare-and-pull-request.png)
+
+- Click the "Compare & pull request" button 
+to proceed to the pull request page of the original 
+fork-commit-merge repository.
+
+- Fill in the title and description boxes 
+to inform what you did in the problem and 
+how you got it to work. You can also add some 
+additional information such as screenshots, 
+if you want or if they are required in the 
+problem description.
+
+- Finally, click "Create pull request" to finish 
+creating the pull request.
+
+Congratulations on making your first open source 
+contribution on GitHub!
+
+Sit back and wait for a response and feedback 
+of the pull request. If everything is working 
+fine, you should get the pull request merged. 
+If not, you will be requested to do some changes 
+to your code.
+
+Remember to wait for me to review your pull 
+request, do not close it yourself.
+If you are asked to make changes, you can do 
+so by committing them to the same branch, 
+there is no need to close the current Pull 
+Request and open a new one.
+
+---
+
+<div align="center">
+  <a id="influences"></a>
+  <h2>Influences</h2>
+</div>
+
+This project was inspired by a number of 
+fantastic resources designed to help newcomers 
+make their first contributions to open source. 
+In particular, we would like to acknowledge:
+
+- [Fork, Commit, Merge](https://github.com/fork-commit-merge/fork-commit-merge): 
+A project designed to help you familiarize 
+yourself with the open source contribution 
+workflow on GitHub, as well as to help you learn 
+the basics of programming with different languages, 
+libraries and frameworks.
+
+I highly recommend checking out these projects 
+if you want to learn more about contributing 
+to open source!
+
+---
+
+<div align="center">
+  <a id="contact"></a>
+  <h2>Contact</h2>
+</div>
+## 
+
+For any queries, feel free to open an issue 
+or reach out to me at per-1986@list.ru.
+
 ---
 
 <div align="center">
@@ -206,16 +305,19 @@ project-euler
 ---
 
 <div align="center">
-  <a id="compatibility"></a>
-  <h2>Compatibility</h2>
+  <a id="list-of-contributors"></a>
+  <h2>List of Contributors</h2>
 </div>
- 
-* Java 8 and above
+## 
+
+Massive thanks to all of the these fine individuals 
+who contributed to this project!
+
+<a href="https://github.com/AlexandrAnatoliev"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109567025?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 
 ---
 
 <div align="center">
-
   <a id="russian"></a>
   <h1>Добро пожаловать на Project Euler</h1>
   <p>Проект помогающий изучить и попрактиковать конструкции языка Java</p>
