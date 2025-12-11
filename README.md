@@ -340,7 +340,6 @@ to open source!
   <a id="contact"></a>
   <h2>Contact</h2>
 </div>
-## 
 
 For any queries, feel free to open an issue 
 or reach out to me at per-1986@list.ru.
@@ -360,14 +359,17 @@ or reach out to me at per-1986@list.ru.
   <a id="list-of-contributors"></a>
   <h2>List of Contributors</h2>
 </div>
-## 
 
 Massive thanks to all of the these fine individuals 
 who contributed to this project!
 
 <a href="https://github.com/AlexandrAnatoliev"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109567025?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+![Alexandr Anatoliev](https://avatars.githubusercontent.com/u/124058127?v=4&s=150)
+[![Alexandr Anatoliev](https://avatars.githubusercontent.com/u/124058127?v=4&s=150)](https://github.com/AlexandrAnatoliev)
 
----
+lexandr Anatoliev](https://avatars.githubusercontent.com/u/124058127?v=4&s=150)](https://github.com/AlexandrAnatoliev)
+
+--
 
 <div align="center">
   <a id="russian"></a>
