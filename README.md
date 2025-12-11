@@ -15,12 +15,18 @@
   
   <p>
     <br>
-    <a href="https://projecteuler.net/archives">Project Euler</a> is a series of challenging mathematical/computer programming problems 
-    that will require more than just mathematical insights to solve. 
-    Although mathematics will help you arrive at elegant and efficient methods, 
-    the use of a computer and programming skills will be required to solve most problems.
-    <br><br>
-    Practice Java coding and contribute to a real open-source project by making your first pull request here!
+    <a href="https://projecteuler.net/archives">Project Euler</a> 
+      is a series of challenging mathematical/computer 
+      programming problems that will require more 
+      than just mathematical insights to solve. 
+      Although mathematics will help you arrive 
+      at elegant and efficient methods, the use 
+      of a computer and programming skills will 
+      be required to solve most problems.
+      <br><br>
+      Practice Java coding and contribute to a 
+      real open-source project by making your 
+      first pull request here!
   </p>
 </div>
 
@@ -142,14 +148,14 @@ multiple problems if you want to. Just remember
 to create a new branch for each problem you solve.
 
 Firstly, select which problem you want to work 
-with and open the `problem` directory:
+with and open the `Problem` directory:
 ```
 project-euler 
-├── problem1/
+├── Problem1/
 │   └── README.md
-├── problem2/
+├── Problem2/
 │   └── README.md
-├── problem3/
+├── Problem3/
 │   └── README.md
 └── README.md
 ```
@@ -159,25 +165,71 @@ to get more info about the issue.
 
 Create directory for your solve in format:
 ```
-problem[number]-[your github nickname]/
+Solve[problem number]-[your github nickname]/
 ```
 
 For example:
 ```
 project-euler 
-├── problem1/
-│   ├── problem1-user1/
-│   ├── problem1-username2/
-│   ├── problem1-IvanIvanov/
+├── Problem1/
+│   ├── Solve1-User1/
+│   ├── Solve1-Username2/
+│   ├── Solve1-IvanIvanov/
 │   │     ^
 │   │     └── directory for your solve
 │   └── README.md
-├── problem2/
-│   ├── problem2-user1/
+├── Problem2/
+│   ├── Solve2-User1/
 │   └── README.md
 └── README.md
 ```
 After that you are ready to get solving!
+
+Add your source files inside 
+(Adding README.md will appreciated)  
+
+Please keep the repository organized by 
+following this formats:
+
+```
+Solve1-YourGithubName/
+├── Main.java       // Your source code
+│   └── Main.java
+└── README.md       // (Optional) Short description or usage guide 
+```   
+
+Or (some classes):
+
+```
+Solve1-YourGithubName/
+├── src/           // Your source code
+│   ├── Class1.java
+│   ├── Class2.java
+│   └── Main.java
+└── README.md      
+```   
+
+Or (add tests):
+
+```
+Solve1-YourGithubName/
+├── src/           
+│   ├── main/           // Your source code
+│   │   ├── Class1.java
+│   │   ├── Class2.java
+│   │   └── Main.java
+│   └── test/           // (Optional) tests source code
+│       ├── Class1Test.java
+│       ├── Class2Test.java
+│       └── MainTest.java
+└── README.md      
+```   
+
+_Note: Avoid unnecessary files (no compiled 
+binaries or IDE metadata) and  make sure your 
+solve application runs properly._
+
+All valid solves will be reviewed and merged 💫
 
 _Note: You don't have to ask a permission 
 to start solving the issue or get assigned, 
