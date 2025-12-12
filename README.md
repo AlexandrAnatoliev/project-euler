@@ -367,7 +367,7 @@ who contributed to this project!
 ![Alexandr Anatoliev](https://avatars.githubusercontent.com/u/124058127?v=4&s=150)
 [![Alexandr Anatoliev](https://avatars.githubusercontent.com/u/124058127?v=4&s=150)](https://github.com/AlexandrAnatoliev)
 
-lexandr Anatoliev](https://avatars.githubusercontent.com/u/124058127?v=4&s=150)](https://github.com/AlexandrAnatoliev)
+<a href="https://github.com/AlexandrAnatoliev"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116306656?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 
 --
 
