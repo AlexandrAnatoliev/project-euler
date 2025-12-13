@@ -73,7 +73,6 @@
 
 That will open this small window:
 
-<br>
 <div align="center">
   <img src="/images/clone-window.png">
 </div>
