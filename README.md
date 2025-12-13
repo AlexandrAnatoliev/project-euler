@@ -110,8 +110,15 @@ git remote -v
 
 You should now see the origin and upstream 
   remotes listed.
+``` 
+origin  https://github.com/<your-username>/project-euler.git (fetch)
+origin  https://github.com/<your-username>/project-euler.git (push)
+upstream        https://github.com/AlexandrAnatoliev/project-euler.git (fetch)
+upstream        https://github.com/AlexandrAnatoliev/project-euler.git (push)
+```
 
-6. Take a pull from the upstream repository to your main branch to keep it at par with the main project:
+6. Take a pull from the upstream repository to your main branch to keep it at 
+par with the main project:
 
 ```bash
 git pull upstream main
@@ -229,7 +236,7 @@ _Note: Avoid unnecessary files (no compiled
 binaries or IDE metadata) and  make sure your 
 solve application runs properly._
 
-All valid solves will be reviewed and merged 💫
+All valid solves will be reviewed and merged.
 
 _Note: You don't have to ask a permission 
 to start solving the issue or get assigned, 
