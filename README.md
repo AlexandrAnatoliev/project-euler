@@ -63,6 +63,7 @@
 <div align="center">
   <img src="/images/fork-button.png">
 </div>
+<br>
 
 2. Clone your forked repository by clicking the 
   "Code" button:
@@ -70,12 +71,14 @@
 <div align="center">
   <img src="/images/code-button.png">
 </div>
+<br>
 
 That will open this small window:
 
 <div align="center">
   <img src="/images/clone-window.png">
 </div>
+<br>
 
 After that you can copy and paste the URL to the 
   your local machine with the command:
@@ -286,11 +289,19 @@ Go to your forked repository on GitHub.
 (or whatever your branch name is) and button 
 "Compare & pull request" next to it.
 
-![Compare & Pull request](/images/compare-and-pull-request.png)
+<div align="center">
+  <img src="/images/compare-and-pull-request.png">
+</div>
+<br>
 
 - Click the "Compare & pull request" button 
 to proceed to the pull request page of the original 
 fork-commit-merge repository.
+
+<div align="center">
+  <img src="/images/compare-and-pull-request-button.png">
+</div>
+<br>
 
 - Fill in the title and description boxes 
 to inform what you did in the problem and 
@@ -299,8 +310,18 @@ additional information such as screenshots,
 if you want or if they are required in the 
 problem description.
 
+<div align="center">
+  <img src="/images/title-and-description-boxes.png">
+</div>
+<br>
+
 - Finally, click "Create pull request" to finish 
 creating the pull request.
+
+<div align="center">
+  <img src="/images/create-pull-request-button.png">
+</div>
+<br>
 
 Congratulations on making your first open source 
 contribution on GitHub!
