@@ -318,6 +318,11 @@ problem description.
 - Finally, click "Create pull request" to finish 
 creating the pull request.
 
+<div align="center">
+  <img src="/images/create-pull-request-button.png">
+</div>
+<br>
+
 Congratulations on making your first open source 
 contribution on GitHub!
 
