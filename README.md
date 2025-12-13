@@ -71,12 +71,14 @@
   <img src="/images/code-button.png">
 </div>
 
+<br>
+<br>
 That will open this small window:
-<br>
-<br>
+
 <div align="center">
   <img src="/images/clone-window.png">
 </div>
+<br>
 
 After that you can copy and paste the URL to the 
   your local machine with the command:
