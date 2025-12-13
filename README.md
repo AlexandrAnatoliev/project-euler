@@ -286,11 +286,17 @@ Go to your forked repository on GitHub.
 (or whatever your branch name is) and button 
 "Compare & pull request" next to it.
 
-![Compare & Pull request](/images/compare-and-pull-request.png)
+<div align="center">
+  <img src="/images/compare-and-pull-request.png">
+</div>
 
 - Click the "Compare & pull request" button 
 to proceed to the pull request page of the original 
 fork-commit-merge repository.
+
+<div align="center">
+  <img src="/images/compare-and-pull-request-button.png">
+</div>
 
 - Fill in the title and description boxes 
 to inform what you did in the problem and 
