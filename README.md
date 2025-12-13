@@ -310,6 +310,11 @@ additional information such as screenshots,
 if you want or if they are required in the 
 problem description.
 
+<div align="center">
+  <img src="/images/title-and-description-boxes.png">
+</div>
+<br>
+
 - Finally, click "Create pull request" to finish 
 creating the pull request.
 
