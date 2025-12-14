@@ -46,7 +46,7 @@
 * [Influences](#influences)
 * [Contact](#contact)
 * [Requirements](#requirements)
-* [List of contributors](#list-of-contributors)
+* [List of Contributors](#list-of-contributors)
 
 ---
 
@@ -80,7 +80,7 @@ That will open this small window:
 </div>
 <br>
 
-After that you can copy and paste the URL to the 
+After that you can copy and paste the URL to 
   your local machine with the command:
 
 ```bash
@@ -120,8 +120,9 @@ upstream        https://github.com/AlexandrAnatoliev/project-euler.git (fetch)
 upstream        https://github.com/AlexandrAnatoliev/project-euler.git (push)
 ```
 
-6. Take a pull from the upstream repository to your main branch to keep it at 
-par with the main project:
+6. Take a pull from the upstream repository 
+to your main branch to keep it in sync with 
+the main project:
 
 ```bash
 git pull upstream main
@@ -150,14 +151,14 @@ possible merge conflicts._
   <h2>Problems</h2>
 </div>
 
-Project Euler are over 800 several problems 
+Project Euler consists of over 800 several problems 
 with varying difficulty. You can choose which 
-problem you want to work with and which difficulty 
-you want to solve. You can also choose to solve 
-multiple problems if you want to. Just remember 
-to create a new branch for each problem you solve.
+problem you want to work on and solve. You can 
+also choose to solve multiple problems if you like. 
+Just remember to create a new branch for each 
+problem you solve.
 
-Firstly, select which problem you want to work 
+First, select which problem you want to work 
 with and open the `Problem` directory:
 ```
 project-euler 
@@ -170,39 +171,39 @@ project-euler
 └── README.md
 ```
 
-Go to the README file of problem you selected 
+Go to the README file of the selected problem 
 to get more info about the issue.
 
-Create directory for your solve in format:
+Create directory for your solution in format:
 ```
-Solve[problem number]-[your github nickname]/
+Solution[problem number]-[your github nickname]/
 ```
 
 For example:
 ```
 project-euler 
 ├── Problem1/
-│   ├── Solve1-User1/
-│   ├── Solve1-Username2/
-│   ├── Solve1-IvanIvanov/
+│   ├── Solution1-User1/
+│   ├── Solution1-Username2/
+│   ├── Solution1-IvanIvanov/
 │   │     ^
-│   │     └── directory for your solve
+│   │     └── directory for your solution
 │   └── README.md
 ├── Problem2/
-│   ├── Solve2-User1/
+│   ├── Solution2-User1/
 │   └── README.md
 └── README.md
 ```
-After that you are ready to get solving!
+After that you are ready to start solving!
 
 Add your source files inside 
-(Adding README.md will appreciated)  
+(Adding README.md is appreciated)  
 
 Please keep the repository organized by 
-following this formats:
+following these formats:
 
 ```
-Solve1-YourGithubName/
+Solution1-YourGithubName/
 ├── Main.java       // Your source code
 │   └── Main.java
 └── README.md       // (Optional) Short description or usage guide 
@@ -211,7 +212,7 @@ Solve1-YourGithubName/
 Or (some classes):
 
 ```
-Solve1-YourGithubName/
+Solution1-YourGithubName/
 ├── src/           // Your source code
 │   ├── Class1.java
 │   ├── Class2.java
@@ -222,13 +223,13 @@ Solve1-YourGithubName/
 Or (add tests):
 
 ```
-Solve1-YourGithubName/
+Solution1-YourGithubName/
 ├── src/           
 │   ├── main/           // Your source code
 │   │   ├── Class1.java
 │   │   ├── Class2.java
 │   │   └── Main.java
-│   └── test/           // (Optional) tests source code
+│   └── test/           // (Optional) tests 
 │       ├── Class1Test.java
 │       ├── Class2Test.java
 │       └── MainTest.java
@@ -237,20 +238,20 @@ Solve1-YourGithubName/
 
 _Note: Avoid unnecessary files (no compiled 
 binaries or IDE metadata) and  make sure your 
-solve application runs properly._
+solution application runs properly._
 
-All valid solves will be reviewed and merged.
+All valid solutions will be reviewed and merged.
 
-_Note: You don't have to ask a permission 
+_Note: You don't have to ask for permission 
 to start solving the issue or get assigned, 
 since these issues are supposed to always 
 be open for new contributors. You can just 
-simply start working with the issue right away! 
+simply start working on the issue right away! 
 Remember that in real world issues you would 
 usually need to ask to get assigned to certain 
-issue to prevent multiple people to working on 
+issue to prevent multiple people from working on 
 the same issue at the same time, which would 
-result some contributors wasting their time._
+result in some contributors wasting their time._
 
 ---
 
@@ -285,7 +286,7 @@ Once you've pushed your changes to GitHub,
 you're ready to create a pull request. 
 Go to your forked repository on GitHub.
 
-- You should see text "fix-issue had recent pushes" 
+- You should see message "fix-issue had recent pushes" 
 (or whatever your branch name is) and button 
 "Compare & pull request" next to it.
 
@@ -296,7 +297,7 @@ Go to your forked repository on GitHub.
 
 - Click the "Compare & pull request" button 
 to proceed to the pull request page of the original 
-fork-commit-merge repository.
+project-euler repository.
 
 <div align="center">
   <img src="/images/compare-and-pull-request-button.png">
@@ -304,11 +305,10 @@ fork-commit-merge repository.
 <br>
 
 - Fill in the title and description boxes 
-to inform what you did in the problem and 
+with details about the problem and 
 how you got it to work. You can also add some 
 additional information such as screenshots, 
-if you want or if they are required in the 
-problem description.
+if you want.
 
 <div align="center">
   <img src="/images/title-and-description-boxes.png">
@@ -326,10 +326,10 @@ creating the pull request.
 Congratulations on making your first open source 
 contribution on GitHub!
 
-Sit back and wait for a response and feedback 
-of the pull request. If everything is working 
+Sit back and wait for feedback 
+on the pull request. If everything is 
 fine, you should get the pull request merged. 
-If not, you will be requested to do some changes 
+If not, you will be requested to make changes 
 to your code.
 
 Remember to wait for me to review your pull 
@@ -349,7 +349,7 @@ Request and open a new one.
 This project was inspired by a number of 
 fantastic resources designed to help newcomers 
 make their first contributions to open source. 
-In particular, we would like to acknowledge:
+In particular, I would like to acknowledge:
 
 - [Fork, Commit, Merge](https://github.com/fork-commit-merge/fork-commit-merge): 
 A project designed to help you familiarize 
@@ -388,7 +388,7 @@ or reach out to me at per-1986@list.ru.
   <h2>List of Contributors</h2>
 </div>
 
-Massive thanks to all of the these fine individuals 
+Massive thanks to all the fine individuals 
 who contributed to this project!
 
 <a href="https://github.com/AlexandrAnatoliev"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116306656?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
