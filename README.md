@@ -433,18 +433,18 @@ who contributed to this project!
   <h2>Навигация</h2>
 </div>
 
-* [Инструкции по Установке](#setup-instructions)
-* [Задачи](#problems)
-* [Отправка Ваших Изменений](#submitting-your-changes)
-* [Похожие Проекты](#influences)
-* [Контакты](#contact)
-* [Требования](#requirements)
-* [Список Контрибьютеров](#list-of-contributors)
+* [Инструкции по Установке](#setup-instructions-ru)
+* [Задачи](#problems-ru)
+* [Отправка Ваших Изменений](#submitting-your-changes-ru)
+* [Похожие Проекты](#influences-ru)
+* [Контакты](#contact-ru)
+* [Требования](#requirements-ru)
+* [Список Контрибьютеров](#list-of-contributors-ru)
 
 ---
 
 <div align="center">
-  <a id="setup-instructions"></a>
+  <a id="setup-instructions-ru"></a>
   <h2>Инструкции по Установке</h2>
 </div>
 
@@ -540,7 +540,7 @@ _Примечание: Рекомендую всегда создавать но
 ---
 
 <div align="center">
-  <a id="problems"></a>
+  <a id="problems-ru"></a>
   <h2>Задачи</h2>
 </div>
 
@@ -586,202 +586,194 @@ project-euler
 │   └── README.md
 └── README.md
 ```
-After that you are ready to start solving!
+После этого Вы готовы решать задачу!
 
-Add your source files inside 
-(Adding README.md is appreciated)  
+Добавьте файлы с исходным кодом в Вашу директорию
+(Наличие README приветствуется)
 
-Please keep the repository organized by 
-following these formats:
+Пожалуйста, организуйте репозиторий придерживаясь
+одного из следующих форматов:
 
 ```
 Solution1-YourGithubName/
-├── Main.java       // Your source code
+├── Main.java       // Ваш исходный код
 │   └── Main.java
-└── README.md       // (Optional) Short description or usage guide 
+└── README.md       // (Опционально) короткое описание или гайд по использованию 
 ```   
 
-Or (some classes):
+Если код состоит из нескольких классов:
 
 ```
 Solution1-YourGithubName/
-├── src/           // Your source code
+├── src/           // Ваш исходный код
 │   ├── Class1.java
 │   ├── Class2.java
 │   └── Main.java
 └── README.md      
 ```   
 
-Or (add tests):
+Если есть тесты:
 
 ```
 Solution1-YourGithubName/
 ├── src/           
-│   ├── main/           // Your source code
+│   ├── main/           // Ваш исходный код
 │   │   ├── Class1.java
 │   │   ├── Class2.java
 │   │   └── Main.java
-│   └── test/           // (Optional) tests 
+│   └── test/           // (Опционально) тесты 
 │       ├── Class1Test.java
 │       ├── Class2Test.java
 │       └── MainTest.java
 └── README.md      
 ```   
 
-_Note: Avoid unnecessary files (no compiled 
-binaries or IDE metadata) and  make sure your 
-solution application runs properly._
+_Примечание: Избегайте лишних файлов (бинарные 
+файлы или метаданные IDE) и проверьте что Ваша
+программа работает корректно._
 
-All valid solutions will be reviewed and merged.
+Все корректные решения будут добавлены после ревью.
 
-_Note: You don't have to ask for permission 
-to start solving the issue or get assigned, 
-since these issues are supposed to always 
-be open for new contributors. You can just 
-simply start working on the issue right away! 
-Remember that in real world issues you would 
-usually need to ask to get assigned to certain 
-issue to prevent multiple people from working on 
-the same issue at the same time, which would 
-result in some contributors wasting their time._
+_Примечание: Вам не нужно спрашивать разрешения
+начать решать задачу, предложенную в issue,
+т.к. в этом проекте все issue открыты для новых
+контрибьютеров. Можно сразу же начинать работать
+с issue прямо сейчас! Однако помните, что на
+большинстве проектов Вам необходимо спрашивать
+разрешение прежде чем начать работать с issue. 
+Это необходимо чтобы несколько человек не начали
+работать над одним и тем же issue одновременно,
+и соответственно потратили свое время..._
 
 ---
 
 <div align="center">
-  <a id="submitting-your-changes"></a>
-  <h2>Submitting Your Changes</h2>
+  <a id="submitting-your-changes-ru"></a>
+  <h2>Отправка Ваших изменений</h2>
 </div>
 
-Once you've made the necessary changes requested 
-in the problem, you're ready to submit your changes!
+Сразу как Вы решили задачу, Вы готовы отправить 
+изменения! 
 
-1. Stage your changes with the command:
+1. Добавьте Ваши изменения в отслеживание:
 
 ```bash
-git add files-that-you-changed
+git add файлы-которые-вы-изменили
 ```
 
-2. Commit your changes with the command:
+2. Слелайте коммит:
 
 ```bash
 git commit -m "Fixed issue"
 ```
 
-3. Push your changes to your forked repository 
-with the command:
+3. Отправить изменения в Ваш "форкнутый" репозиторий:
 
 ```bash
 git push origin fix-issue
 ```
 
-Once you've pushed your changes to GitHub, 
-you're ready to create a pull request. 
-Go to your forked repository on GitHub.
+После того как Вы отправили Ваши изменения на 
+GitHub, Вы готовы создать pull request.
+Перейдите на Ваш "форк" репозитория на GitHub.
 
-- You should see message "fix-issue had recent pushes" 
-(or whatever your branch name is) and button 
-"Compare & pull request" next to it.
+- Вы увидите надпись "fix-issue had recent pushes" 
+(или как Ваша ветка называется) и кнопку 
+"Compare & pull request" на ней.
 
 <div align="center">
   <img src="/images/compare-and-pull-request.png">
 </div>
 <br>
 
-- Click the "Compare & pull request" button 
-to proceed to the pull request page of the original 
-project-euler repository.
+- Нажмите кнопку "Compare & pull request" и перейдете
+на страницу pull request оригинального репозитория
+прректа project-euler.
 
 <div align="center">
   <img src="/images/compare-and-pull-request-button.png">
 </div>
 <br>
 
-- Fill in the title and description boxes 
-with details about the problem and 
-how you got it to work. You can also add some 
-additional information such as screenshots, 
-if you want.
+- Заполните поля title и description подробностямм
+о задаче и Вашем ее решении. Вы можете также добавить
+иную информацию, такую как скриншоты, если хотите.
 
 <div align="center">
   <img src="/images/title-and-description-boxes.png">
 </div>
 <br>
 
-- Finally, click "Create pull request" to finish 
-creating the pull request.
+- В конце нажмите кнопку "Create pull request" 
+чтобы закончить создание pull request.
 
 <div align="center">
   <img src="/images/create-pull-request-button.png">
 </div>
 <br>
 
-Congratulations on making your first open source 
-contribution on GitHub!
+Плздравляю, Вы сделали свой первый вклад в open 
+source на GitHub!
 
-Sit back and wait for feedback 
-on the pull request. If everything is 
-fine, you should get the pull request merged. 
-If not, you will be requested to make changes 
-to your code.
+Можно расслабиться и подождать пока не сделают
+ревью Вашего кода. Если все хорошо, Ваш pull request
+вольют в основную ветку. Если нет, Вам будет 
+предложено внести изменения в Ваш код.
 
-Remember to wait for me to review your pull 
-request, do not close it yourself.
-If you are asked to make changes, you can do 
-so by committing them to the same branch, 
-there is no need to close the current Pull 
-Request and open a new one.
+Помните, что нужно подождать ревью Вашего pull 
+request, не закрывайте его сами.
+Если Вас просят сделать изменения, Вы можете
+коммититить их в ну же самую ветвь, не нужно
+закрывать текущий pull request и открывать новый.
 
 ---
 
 <div align="center">
-  <a id="influences"></a>
-  <h2>Influences</h2>
+  <a id="influences-ru"></a>
+  <h2>Похожие проекты</h2>
 </div>
 
-This project was inspired by a number of 
-fantastic resources designed to help newcomers 
-make their first contributions to open source. 
-In particular, I would like to acknowledge:
+Этот проект вдохновлялся несколькими хорошими
+проектами, созданными с целью помочь новичкам
+сделать свой первый вклад в open source.
 
 - [Fork, Commit, Merge](https://github.com/fork-commit-merge/fork-commit-merge): 
-A project designed to help you familiarize 
-yourself with the open source contribution 
-workflow on GitHub, as well as to help you learn 
-the basics of programming with different languages, 
-libraries and frameworks.
+Проект созданный чтобы помочь Вам познакомиться
+с процессом вклада в open source на GitHub,
+а также помочь освоить базы программирования на
+различных языках, библиотеках и фреймворках.
 
-I highly recommend checking out these projects 
-if you want to learn more about contributing 
-to open source!
+Я очень рекоммендую посмотреть эти проекты!
 
 ---
 
 <div align="center">
-  <a id="contact"></a>
-  <h2>Contact</h2>
+  <a id="contact-ru"></a>
+  <h2>Контакты</h2>
 </div>
 
-For any queries, feel free to open an issue 
-or reach out to me at per-1986@list.ru.
+Столкнувшись с затруднениями не стесняйтесь
+открыть issue или написать мне на почту
+per-1986@list.ru.
 
 ---
 
 <div align="center">
-  <a id="requirements"></a>
-  <h2>Requirements</h2>
+  <a id="requirements-ru"></a>
+  <h2>Требования</h2>
 </div>
  
-* Java installed
+* Установленная Java 
 
 ---
 
 <div align="center">
-  <a id="list-of-contributors"></a>
-  <h2>List of Contributors</h2>
+  <a id="list-of-contributors-ru"></a>
+  <h2>Список Контрибьютеров</h2>
 </div>
 
-Massive thanks to all the fine individuals 
-who contributed to this project!
+Огромное спасибо всем тем кто контрибьютил
+в этот проект!
 
 <a href="https://github.com/AlexandrAnatoliev"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116306656?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 
