@@ -405,6 +405,8 @@ who contributed to this project!
   ![Version 0.1.0](https://img.shields.io/badge/Version-0.1.0-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
+  [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
+  [![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
   ![GitHub repo size](https://img.shields.io/github/repo-size/AlexandrAnatoliev/project-euler)
   
   <p>
@@ -426,3 +428,352 @@ who contributed to this project!
   > **GitHub:** [AlexandrAnatoliev](https://github.com/AlexandrAnatoliev)
 
 ---
+
+<div align="center">
+  <h2>Навигация</h2>
+</div>
+
+* [Инструкции по Установке](#setup-instructions-ru)
+* [Задачи](#problems-ru)
+* [Отправка Ваших Изменений](#submitting-your-changes-ru)
+* [Похожие Проекты](#influences-ru)
+* [Контакты](#contact-ru)
+* [Требования](#requirements-ru)
+* [Список Контрибьютеров](#list-of-contributors-ru)
+
+---
+
+<div align="center">
+  <a id="setup-instructions-ru"></a>
+  <h2>Инструкции по Установке</h2>
+</div>
+
+1. Сделайте "форк" этого репозитория нажатием 
+  кнопки "Fork" в правом верхнем углу страницы.
+  Это создаст копию ркпозитория на Вашем GitHub 
+  аккаунте.
+
+<div align="center">
+  <img src="/images/fork-button.png">
+</div>
+<br>
+
+2.Клонируйте Ваш "форкнутый" репозиторий нажатием
+  кнопки "Code":
+
+<div align="center">
+  <img src="/images/code-button.png">
+</div>
+<br>
+
+Откроется маленькое окно: 
+
+<div align="center">
+  <img src="/images/clone-window.png">
+</div>
+<br>
+
+Скопируйте из него URL и выполните на своем 
+компьютере команду:
+
+```bash
+git clone https://github.com/<your-username>/project-euler.git
+```
+
+3. Перейдите в папку с проектом:
+
+```bash
+cd project-euler
+```
+
+4. Добавьте ссылку на оригинальный репозиторий
+  для будущих обновлений:
+
+```bash
+git remote add upstream https://github.com/AlexandrAnatoliev/project-euler.git
+```
+
+(Напомню, здесь должен быть URL оригинального
+репозитория, а не "форкнутого" Вами, так что
+username в нем должно быть `AlexandrAnatoliev`,
+а не Ваш собственный username.)
+
+5. Проверьте ремоуты для своего репозитория:
+
+```bash
+git remote -v
+```
+
+Вы должны увидеть origin и upstream ремоуты:
+``` 
+origin  https://github.com/<your-username>/project-euler.git (fetch)
+origin  https://github.com/<your-username>/project-euler.git (push)
+upstream        https://github.com/AlexandrAnatoliev/project-euler.git (fetch)
+upstream        https://github.com/AlexandrAnatoliev/project-euler.git (push)
+```
+
+6. Сделайте pull из upstream репозитория в Вашу
+  main ветку, чтобы синхронизировать ее с основным
+  проектом:
+
+```bash
+git pull upstream main
+```
+
+7. Создайте новую ветку командой:
+
+```bash
+git switch -c fix-issue
+```
+
+Сейчас Вы готовы начать работать с issue!
+Помните, каждый раз сначала делать pull
+из upstream репозитория, чтобы держать содержимое
+Вашего локального репозитория в соответствии
+с главным проектом.
+
+_Примечание: Рекомендую всегда создавать новую
+ветвь для каждого issue, который Вы выполняете!
+Иначе pull request будут слишком большими и 
+возможно аозникнут конфликты слияния._
+
+---
+
+<div align="center">
+  <a id="problems-ru"></a>
+  <h2>Задачи</h2>
+</div>
+
+Проект Эйлер содержит более 800 различных задач
+различной трудности. Вы можете выбрать любую 
+задачу, которую Вы хотите. Вы можете также выбрать
+и решить несколько задач. Только не забывайте
+создавать новую ветвь для каждой из них.
+
+Сначала, выберите задачу, которую Вы хотите решать
+и откройте ее директорию:
+```
+project-euler 
+├── Problem1/
+│   └── README.md
+├── Problem2/
+│   └── README.md
+├── Problem3/
+│   └── README.md
+└── README.md
+```
+
+Перейдите в README файл выбранной задачи, чтобы
+получить информацию об ее сути.
+
+Создайте директорию для Вашего решения в формате:
+```
+Solution[номер задачи]-[Ваш github nickname]/
+```
+
+Например:
+```
+project-euler 
+├── Problem1/
+│   ├── Solution1-User1/
+│   ├── Solution1-Username2/
+│   ├── Solution1-IvanIvanov/
+│   │     ^
+│   │     └── директория для Вашего решения
+│   └── README.md
+├── Problem2/
+│   ├── Solution2-User1/
+│   └── README.md
+└── README.md
+```
+После этого Вы готовы решать задачу!
+
+Добавьте файлы с исходным кодом в Вашу директорию
+(Наличие README приветствуется)
+
+Пожалуйста, организуйте репозиторий придерживаясь
+одного из следующих форматов:
+
+```
+Solution1-YourGithubName/
+├── Main.java       // Ваш исходный код
+│   └── Main.java
+└── README.md       // (Опционально) короткое описание или гайд по использованию 
+```   
+
+Если код состоит из нескольких классов:
+
+```
+Solution1-YourGithubName/
+├── src/           // Ваш исходный код
+│   ├── Class1.java
+│   ├── Class2.java
+│   └── Main.java
+└── README.md      
+```   
+
+Если есть тесты:
+
+```
+Solution1-YourGithubName/
+├── src/           
+│   ├── main/           // Ваш исходный код
+│   │   ├── Class1.java
+│   │   ├── Class2.java
+│   │   └── Main.java
+│   └── test/           // (Опционально) тесты 
+│       ├── Class1Test.java
+│       ├── Class2Test.java
+│       └── MainTest.java
+└── README.md      
+```   
+
+_Примечание: Избегайте лишних файлов (бинарные 
+файлы или метаданные IDE) и проверьте что Ваша
+программа работает корректно._
+
+Все корректные решения будут добавлены после ревью.
+
+_Примечание: Вам не нужно спрашивать разрешения
+начать решать задачу, предложенную в issue,
+т.к. в этом проекте все issue открыты для новых
+контрибьютеров. Можно сразу же начинать работать
+с issue прямо сейчас! Однако помните, что на
+большинстве проектов Вам необходимо спрашивать
+разрешение прежде чем начать работать с issue. 
+Это необходимо чтобы несколько человек не начали
+работать над одним и тем же issue одновременно,
+и соответственно потратили свое время..._
+
+---
+
+<div align="center">
+  <a id="submitting-your-changes-ru"></a>
+  <h2>Отправка Ваших изменений</h2>
+</div>
+
+Сразу как Вы решили задачу, Вы готовы отправить 
+изменения! 
+
+1. Добавьте Ваши изменения в отслеживание:
+
+```bash
+git add файлы-которые-вы-изменили
+```
+
+2. Слелайте коммит:
+
+```bash
+git commit -m "Fixed issue"
+```
+
+3. Отправить изменения в Ваш "форкнутый" репозиторий:
+
+```bash
+git push origin fix-issue
+```
+
+После того как Вы отправили Ваши изменения на 
+GitHub, Вы готовы создать pull request.
+Перейдите на Ваш "форк" репозитория на GitHub.
+
+- Вы увидите надпись "fix-issue had recent pushes" 
+(или как Ваша ветка называется) и кнопку 
+"Compare & pull request" на ней.
+
+<div align="center">
+  <img src="/images/compare-and-pull-request.png">
+</div>
+<br>
+
+- Нажмите кнопку "Compare & pull request" и перейдете
+на страницу pull request оригинального репозитория
+прректа project-euler.
+
+<div align="center">
+  <img src="/images/compare-and-pull-request-button.png">
+</div>
+<br>
+
+- Заполните поля title и description подробностямм
+о задаче и Вашем ее решении. Вы можете также добавить
+иную информацию, такую как скриншоты, если хотите.
+
+<div align="center">
+  <img src="/images/title-and-description-boxes.png">
+</div>
+<br>
+
+- В конце нажмите кнопку "Create pull request" 
+чтобы закончить создание pull request.
+
+<div align="center">
+  <img src="/images/create-pull-request-button.png">
+</div>
+<br>
+
+Плздравляю, Вы сделали свой первый вклад в open 
+source на GitHub!
+
+Можно расслабиться и подождать пока не сделают
+ревью Вашего кода. Если все хорошо, Ваш pull request
+вольют в основную ветку. Если нет, Вам будет 
+предложено внести изменения в Ваш код.
+
+Помните, что нужно подождать ревью Вашего pull 
+request, не закрывайте его сами.
+Если Вас просят сделать изменения, Вы можете
+коммититить их в ну же самую ветвь, не нужно
+закрывать текущий pull request и открывать новый.
+
+---
+
+<div align="center">
+  <a id="influences-ru"></a>
+  <h2>Похожие проекты</h2>
+</div>
+
+Этот проект вдохновлялся несколькими хорошими
+проектами, созданными с целью помочь новичкам
+сделать свой первый вклад в open source.
+
+- [Fork, Commit, Merge](https://github.com/fork-commit-merge/fork-commit-merge): 
+Проект созданный чтобы помочь Вам познакомиться
+с процессом вклада в open source на GitHub,
+а также помочь освоить базы программирования на
+различных языках, библиотеках и фреймворках.
+
+Я очень рекоммендую посмотреть эти проекты!
+
+---
+
+<div align="center">
+  <a id="contact-ru"></a>
+  <h2>Контакты</h2>
+</div>
+
+Столкнувшись с затруднениями не стесняйтесь
+открыть issue или написать мне на почту
+per-1986@list.ru.
+
+---
+
+<div align="center">
+  <a id="requirements-ru"></a>
+  <h2>Требования</h2>
+</div>
+ 
+* Установленная Java 
+
+---
+
+<div align="center">
+  <a id="list-of-contributors-ru"></a>
+  <h2>Список Контрибьютеров</h2>
+</div>
+
+Огромное спасибо всем тем кто контрибьютил
+в этот проект!
+
+<a href="https://github.com/AlexandrAnatoliev"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116306656?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+
