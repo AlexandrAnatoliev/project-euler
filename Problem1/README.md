@@ -14,11 +14,9 @@
   
   <h4>Description</h4>
   <p>
-    <a href="https://projecteuler.net/archives">Project Euler</a> 
       If we list all the natural numbers below 10
       that are multiples of 3 or 5, we get 3, 5, 
       6 and 9. The sum of these multiples is 23.
-
       Find the sum of all the multiples of 3 or 5
       below 1000.
   </p>
@@ -31,6 +29,12 @@ solving the issue or get assigned, since
 these issues are supposed to be always open 
 for new contributors. So you can just simply 
   start working with the issue right away!_
+
+[Project Euler WebSite](https://projecteuler.net/archives) 
+
+[Detail Setup Instructions](../README.md) 
+
+---
 
 * Pull from the upstream repository 
 to your main branch to keep it in sync with 
