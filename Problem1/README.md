@@ -20,7 +20,6 @@
       Find the sum of all the multiples of 3 or 5
       below 1000.
   </p>
-  <a href="https://projecteuler.net/archives">Origin Description</a> 
 </div>
 
 ---
@@ -30,6 +29,12 @@ solving the issue or get assigned, since
 these issues are supposed to be always open 
 for new contributors. So you can just simply 
   start working with the issue right away!_
+
+[Project Euler WebSite](https://projecteuler.net/archives) 
+
+[Detail Setup Instructions](../README.md) 
+
+---
 
 * Pull from the upstream repository 
 to your main branch to keep it in sync with 
