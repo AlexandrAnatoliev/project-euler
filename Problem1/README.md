@@ -24,13 +24,13 @@
 
 ---
 
-_Note: You don't have ask permission to start 
+_Note: You don't have to ask permission to start 
 solving the issue or get assigned, since 
 these issues are supposed to be always open 
 for new contributors. So you can just simply 
   start working with the issue right away!_
 
-[Project Euler WebSite](https://projecteuler.net/archives) 
+[Project Euler website](https://projecteuler.net/archives) 
 
 [Detail Setup Instructions](../README.md) 
 
@@ -53,13 +53,14 @@ git switch -c fix-issue
 * Navigate to the Problem1 directory from the root 
 of your project. 
 
-* Create directory for your solution in format:
+* Create a directory for your solution in the 
+format:
 ```
-Solution[problem number]-[your github nickname]/
+Solution[problem number]-[your GitHub nickname]/
 ```
 
-When you sure your solution application runs 
-properly ([check answer](https://projecteuler.net)):
+When you are sure your solution runs properly  
+([check answer](https://projecteuler.net)):
 - Stage your changes with the command:
 
 ```bash
@@ -72,15 +73,15 @@ git add files-that-you-changed
 git commit -m "Fixed issue"
 ```
 
-- Push your changes to your forked repository 
-with the command:
+- Push changes to your fork (your GitHub 
+repository) with the command:
 
 ```bash
 git push origin fix-issue
 ```
 
 Check out [README.md](../README.md) for more 
-detail instructions how to make a pull request.
+detailed instructions how to make a pull request.
 
 Feel free to ask any questions here if you have 
 some problems!

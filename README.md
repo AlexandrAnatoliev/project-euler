@@ -159,7 +159,7 @@ Just remember to create a new branch for each
 problem you solve.
 
 <div align="center">
-  <h4>List of Problems</h4>
+  <h4>List of Problems:</h4>
 </div>
 
 1. [Multiples of 3 or 5](Problem1/README.md)
