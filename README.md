@@ -6,7 +6,7 @@
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.1.0](https://img.shields.io/badge/Version-0.1.0-orange.svg)
+  ![Version 0.1.1](https://img.shields.io/badge/Version-0.1.1-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
   [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
@@ -408,7 +408,7 @@ who contributed to this project!
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.1.0](https://img.shields.io/badge/Version-0.1.0-orange.svg)
+  ![Version 0.1.1](https://img.shields.io/badge/Version-0.1.1-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
   [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
@@ -556,6 +556,12 @@ _Примечание: Рекомендую всегда создавать но
 и решить несколько задач. Только не забывайте
 создавать новую ветвь для каждой из них.
 
+<div align="center">
+  <h4>Список задач:</h4>
+</div>
+
+1. [Числа, кратные 3 или 5](Problem1/README.md)
+
 Сначала, выберите задачу, которую Вы хотите решать
 и откройте ее директорию:
 ```
@@ -667,7 +673,7 @@ _Примечание: Вам не нужно спрашивать разреш�
 git add файлы-которые-вы-изменили
 ```
 
-2. Слелайте коммит:
+2. Сделайте коммит:
 
 ```bash
 git commit -m "Fixed issue"
