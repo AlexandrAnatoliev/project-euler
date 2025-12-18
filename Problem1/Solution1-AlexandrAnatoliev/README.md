@@ -2,17 +2,17 @@
     <h1>Problem-1 "Multiples of 3 or 5"</h1>
 </div>
 
-* Compile source files:
+## Compile
 ```
 javac Main.java
 ```
 
-* Run program:
+## Run
 ```
 java Main
 ```
 
-* Program print answer:
+## Expected Output
 ```
 Answer = 233168
 ```

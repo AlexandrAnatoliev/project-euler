@@ -7,8 +7,9 @@ public class Main {
         int answer = 0;
 
         for (int num = 1; num < 1000; num++) {
-            if ((num % 3) == 0 || (num % 5) == 0)
+            if ((num % 3) == 0 || (num % 5) == 0) {
                 answer += num;
+            }
         }
         System.out.println("Answer = " + answer);
     }
