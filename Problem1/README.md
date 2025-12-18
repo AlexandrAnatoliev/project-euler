@@ -17,6 +17,7 @@
       If we list all the natural numbers below 10
       that are multiples of 3 or 5, we get 3, 5, 
       6 and 9. The sum of these multiples is 23.
+
       Find the sum of all the multiples of 3 or 5
       below 1000.
   </p>
@@ -86,5 +87,89 @@ detailed instructions how to make a pull request.
 Feel free to ask any questions here if you have 
 some problems!
 
-Also, kindly give this project a star to enhance 
-its visibility for new developers!
+<div align="center">
+
+  <a id="russian"></a>
+  <h1>Проект Эйлер Задача 1</h1>
+  <h2>Числа, кратные 3 или 5</h2>
+
+  [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
+  [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
+  ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
+  ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
+  [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
+  [![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/AlexandrAnatoliev/project-euler)
+  
+  <h4>Условия задачи</h4>
+  <p>
+    Если выписать все натуральные числа меньше 10, 
+    кратные 3 или 5, то получим 3, 5, 6 и 9. 
+    Сумма этих чисел равна 23.
+
+    Найдите сумму всех чисел меньше 1000, 
+    кратных 3 или 5.
+  </p>
+</div>
+
+---
+
+_Примечвние: Вам не нужно спрашивать разрешения
+начать выполнять issue, т.к. все они по умолчанию
+всегда открыты для новых контрибьютеров. Просто
+начнмте решать задачу прямо сейчас!_
+
+[Project Euler website](https://projecteuler.net/archives) 
+
+[Детальные инструкции по установке](../README.md) 
+
+---
+
+* Выполните pull из upstream репозитория в Вашу
+  main ветку, чтобы синхронизировать ее с основным
+  проектом:
+
+```bash
+git pull upstream main
+```
+
+* Создайте новую ветку командой:
+
+```bash
+git switch -c fix-issue
+```
+
+* Перейдите в Problem1 директорию: 
+
+* Создайте директорию для Вашего решения в формате:
+```
+Solution[problem number]-[your GitHub nickname]/
+```
+
+Когда Вы уверены, что Ваше решение правильное
+([проверить ответ](https://projecteuler.net)):
+
+- Добавьте Ваши изменения в отслеживание:
+
+```bash
+git add файлы-которые-вы-изменили
+```
+
+- Сделайте коммит:
+
+```bash
+git commit -m "Fixed issue"
+```
+
+- Отправьте изменения в Ваш "форкнутый" репозиторий:
+
+```bash
+git push origin fix-issue
+```
+
+Посмотрите [README.md](../README.md) чтобы получить 
+детальные инструкции как сделать pull request.
+
+В случае, если у Вас возникли какие либо проблемы,
+задавайте вопросы без стеснений!
+
