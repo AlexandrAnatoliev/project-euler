@@ -6,7 +6,7 @@
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.1.1](https://img.shields.io/badge/Version-0.1.1-orange.svg)
+  ![Version 0.1.2](https://img.shields.io/badge/Version-0.1.2-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
   [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
@@ -211,7 +211,6 @@ following these formats:
 ```
 Solution1-YourGithubName/
 ├── Main.java       // Your source code
-│   └── Main.java
 └── README.md       // (Optional) Short description or usage guide 
 ```   
 
@@ -408,7 +407,7 @@ who contributed to this project!
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.1.1](https://img.shields.io/badge/Version-0.1.1-orange.svg)
+  ![Version 0.1.2](https://img.shields.io/badge/Version-0.1.2-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
   [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
@@ -609,7 +608,6 @@ project-euler
 ```
 Solution1-YourGithubName/
 ├── Main.java       // Ваш исходный код
-│   └── Main.java
 └── README.md       // (Опционально) короткое описание или гайд по использованию 
 ```   
 
