@@ -33,12 +33,12 @@ for new contributors. So you can just simply
 
 [Project Euler website](https://projecteuler.net/archives) 
 
-[Detail Setup Instructions](../README.md) 
+[Detailed Setup Instructions](../README.md) 
 
 ---
 
 * Pull from the upstream repository 
-to your main branch to keep it in sync with 
+into your main branch to keep it in sync with 
 the main project:
 
 ```bash
@@ -61,7 +61,7 @@ Solution[problem number]-[your GitHub nickname]/
 ```
 
 When you are sure your solution runs properly  
-([check answer](https://projecteuler.net)):
+([check the answer](https://projecteuler.net)):
 - Stage your changes with the command:
 
 ```bash
@@ -82,7 +82,7 @@ git push origin fix-issue
 ```
 
 Check out [README.md](../README.md) for more 
-detailed instructions how to make a pull request.
+detailed instructions on how to make a pull request.
 
 Feel free to ask any questions here if you have 
 some problems!
@@ -114,19 +114,19 @@ some problems!
 
 ---
 
-_Примечвние: Вам не нужно спрашивать разрешения
+_Примечание: Вам не нужно спрашивать разрешения
 начать выполнять issue, т.к. все они по умолчанию
-всегда открыты для новых контрибьютеров. Просто
-начнмте решать задачу прямо сейчас!_
+всегда открыты для новых контрибьюторов. Просто
+начните решать задачу прямо сейчас!_
 
 [Project Euler website](https://projecteuler.net/archives) 
 
-[Детальные инструкции по установке](../README.md) 
+[Детальные инструкции по настройке](../README.md) 
 
 ---
 
-* Выполните pull из upstream репозитория в Вашу
-  main ветку, чтобы синхронизировать ее с основным
+* Выполните pull из upstream-репозитория в Вашу
+  main-ветку, чтобы синхронизировать ее с основным
   проектом:
 
 ```bash
@@ -161,15 +161,15 @@ git add файлы-которые-вы-изменили
 git commit -m "Fixed issue"
 ```
 
-- Отправьте изменения в Ваш "форкнутый" репозиторий:
+- Отправьте изменения в Ваш форк (Ваш GitHub-репозиторий):
 
 ```bash
 git push origin fix-issue
 ```
 
-Посмотрите [README.md](../README.md) чтобы получить 
-детальные инструкции как сделать pull request.
+Посмотрите [README.md](../README.md), чтобы получить 
+детальные инструкции о том, как сделать pull request.
 
-В случае, если у Вас возникли какие либо проблемы,
+В случае, если у Вас возникли какие-либо проблемы,
 задавайте вопросы без стеснений!
 
