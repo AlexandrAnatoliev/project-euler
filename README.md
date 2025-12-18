@@ -121,11 +121,11 @@ upstream        https://github.com/AlexandrAnatoliev/project-euler.git (push)
 ```
 
 6. Pull from the upstream repository 
-to your main branch to keep it in sync with 
+to your master branch to keep it in sync with 
 the main project:
 
 ```bash
-git pull upstream main
+git pull upstream master
 ```
 
 7. Create a new branch with the command:
@@ -519,11 +519,11 @@ upstream        https://github.com/AlexandrAnatoliev/project-euler.git (push)
 ```
 
 6. Выполните pull из upstream репозитория в Вашу
-  main ветку, чтобы синхронизировать ее с основным
+  master ветку, чтобы синхронизировать ее с основным
   проектом:
 
 ```bash
-git pull upstream main
+git pull upstream master
 ```
 
 7. Создайте новую ветку командой:

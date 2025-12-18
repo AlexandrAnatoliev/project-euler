@@ -38,11 +38,11 @@ for new contributors. So you can just simply
 ---
 
 * Pull from the upstream repository 
-into your main branch to keep it in sync with 
+into your master branch to keep it in sync with 
 the main project:
 
 ```bash
-git pull upstream main
+git pull upstream master
 ```
 
 * Create a new branch with the command:
@@ -126,11 +126,11 @@ _Примечание: Вам не нужно спрашивать разреш�
 ---
 
 * Выполните pull из upstream-репозитория в Вашу
-  main-ветку, чтобы синхронизировать ее с основным
+  master-ветку, чтобы синхронизировать ее с основным
   проектом:
 
 ```bash
-git pull upstream main
+git pull upstream master
 ```
 
 * Создайте новую ветку командой:
