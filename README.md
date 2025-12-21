@@ -379,7 +379,8 @@ to open source!
   <h2>Contact</h2>
 </div>
 
-For any queries, feel free to open an issue 
+For any queries, feel free to open an issue,
+write to [Discussions](https://github.com/AlexandrAnatoliev/project-euler/discussions/23)
 or reach out to me at per-1986@list.ru.
 
 ---
