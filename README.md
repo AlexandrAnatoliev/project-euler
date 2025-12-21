@@ -363,6 +363,11 @@ workflow on GitHub, as well as to help you learn
 the basics of programming with different languages, 
 libraries and frameworks.
 
+- [Polyglot-Calculators](https://github.com/B3rou/Polyglot-Calculators): 
+Polyglot-Calculators is a community-driven, modern hybrid project that 
+showcases how mathematical calculators and algorithms are implemented across 
+different programming languages.
+
 I highly recommend checking out these projects 
 if you want to learn more about contributing 
 to open source!
@@ -752,6 +757,11 @@ request, не закрывайте его сами.
 с процессом вклада в open source на GitHub,
 а также помочь освоить базы программирования на
 различных языках, библиотеках и фреймворках.
+
+- [Polyglot-Calculators](https://github.com/B3rou/Polyglot-Calculators): 
+Polyglot-Calculators управляемый сообществом современный гибридный проект, 
+который демонстрирует, как математические калькуляторы  и алгоритмы реализуются
+на разных языках программирования.
 
 Я очень рекомендую посмотреть эти проекты!
 
