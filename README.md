@@ -2,14 +2,14 @@
 
   <a id="english"></a>
   <h1>Welcome to Project Euler</h1>
-  <p>A project to help developers learn and practice Java</p>
+  <p>A project designed to help developers learn and practice Java</p>
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.1.2](https://img.shields.io/badge/Version-0.1.2-orange.svg)
+  ![Version 0.1.3](https://img.shields.io/badge/Version-0.1.3-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
-  [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
+  [![PRs Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
   [![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
   ![GitHub repo size](https://img.shields.io/github/repo-size/AlexandrAnatoliev/project-euler)
   
@@ -20,13 +20,12 @@
       programming problems that will require more 
       than just mathematical insights to solve. 
       Although mathematics will help you arrive 
-      at elegant and efficient methods, the use 
+      at elegant and efficient solutions, the use 
       of a computer and programming skills will 
       be required to solve most problems.
       <br><br>
-      Practice Java coding and contribute to a 
-      real open-source project by making your 
-      first pull request here!
+      Practice Java coding by solving Project Euler problems and 
+      make your first open-source contribution through a pull request! 
   </p>
 </div>
 
@@ -105,7 +104,7 @@ git remote add upstream https://github.com/AlexandrAnatoliev/project-euler.git
   needs to be `AlexandrAnatoliev`, not your 
   own username.)
 
-5. Check the remotes for this repository:
+5. Check the remotes for your local repository:
 
 ```bash
 git remote -v
@@ -164,8 +163,8 @@ problem you solve.
 
 1. [Multiples of 3 or 5](Problem1/README.md)
 
-First, select which problem you want to work 
-with and open the `Problem` directory:
+First, select the problem you want to solve 
+and open the `Problem` directory:
 ```
 project-euler 
 ├── Problem1/
@@ -413,10 +412,10 @@ who contributed to this project!
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.1.2](https://img.shields.io/badge/Version-0.1.2-orange.svg)
+  ![Version 0.1.3](https://img.shields.io/badge/Version-0.1.3-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
-  [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
+  [![PRs Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
   [![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
   ![GitHub repo size](https://img.shields.io/github/repo-size/AlexandrAnatoliev/project-euler)
   
@@ -774,9 +773,13 @@ Polyglot-Calculators управляемый сообществом соврем�
 </div>
 
 Столкнувшись с затруднениями, не стесняйтесь
-открыть issue или написать мне на почту
-per-1986@list.ru.
+открыть issue написать в
+[Discussions](https://github.com/AlexandrAnatoliev/project-euler/discussions/23) 
+или написать мне на почту per-1986@list.ru.
 
+For any queries, feel free to open an issue,
+write to [Discussions](https://github.com/AlexandrAnatoliev/project-euler/discussions/23)
+or reach out to me at per-1986@list.ru.
 ---
 
 <div align="center">
