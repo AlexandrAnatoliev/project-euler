@@ -773,13 +773,10 @@ Polyglot-Calculators управляемый сообществом соврем�
 </div>
 
 Столкнувшись с затруднениями, не стесняйтесь
-открыть issue написать в
+открыть issue, написать в
 [Discussions](https://github.com/AlexandrAnatoliev/project-euler/discussions/23) 
-или написать мне на почту per-1986@list.ru.
+или мне на почту per-1986@list.ru.
 
-For any queries, feel free to open an issue,
-write to [Discussions](https://github.com/AlexandrAnatoliev/project-euler/discussions/23)
-or reach out to me at per-1986@list.ru.
 ---
 
 <div align="center">
