@@ -84,8 +84,9 @@ git push origin fix-issue
 Check out [README.md](../README.md) for more 
 detailed instructions on how to make a pull request.
 
-Feel free to ask any questions here if you have 
-some problems!
+For any queries, feel free to open an issue,
+write to [Discussions](https://github.com/AlexandrAnatoliev/project-euler/discussions/23)
+or reach out to me at per-1986@list.ru.
 
 <div align="center">
 
@@ -170,6 +171,7 @@ git push origin fix-issue
 Посмотрите [README.md](../README.md), чтобы получить 
 детальные инструкции о том, как сделать pull request.
 
-В случае, если у Вас возникли какие-либо проблемы,
-задавайте вопросы без стеснений!
-
+Столкнувшись с затруднениями, не стесняйтесь
+открыть issue, написать в
+[Discussions](https://github.com/AlexandrAnatoliev/project-euler/discussions/23) 
+или мне на почту per-1986@list.ru.
