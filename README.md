@@ -6,7 +6,7 @@
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.1.3](https://img.shields.io/badge/Version-0.1.3-orange.svg)
+  ![Version 0.1.4](https://img.shields.io/badge/Version-0.1.4-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
   [![PRs Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
@@ -103,6 +103,12 @@ git remote add upstream https://github.com/AlexandrAnatoliev/project-euler.git
   not your forked one, so the username in this 
   needs to be `AlexandrAnatoliev`, not your 
   own username.)
+
+Add a reference to your GitHub repository ("fork"):
+
+```bash
+git remote add origin https://github.com/<your-username>/jvim-plugins.git
+```
 
 5. Check the remotes for your local repository:
 
@@ -412,7 +418,7 @@ who contributed to this project!
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.1.3](https://img.shields.io/badge/Version-0.1.3-orange.svg)
+  ![Version 0.1.4](https://img.shields.io/badge/Version-0.1.4-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
   [![PRs Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
@@ -507,6 +513,12 @@ git remote add upstream https://github.com/AlexandrAnatoliev/project-euler.git
 репозитория, а не "форкнутого" Вами, так что
 username в нем должно быть `AlexandrAnatoliev`,
 а не Ваш собственный username.)
+
+Добавьте ссылку на свой GitHub репозиторий ("fork"):
+
+```bash
+git remote add origin https://github.com/<your-username>/jvim-plugins.git
+```
 
 5. Проверьте ремоуты для своего репозитория:
 
