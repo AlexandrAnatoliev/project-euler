@@ -5,5 +5,5 @@
       $answer += $num;
     } 
   }
-  echo "Answer = " . $answer;
+  echo 'Answer = ' . $answer;
 ?>
