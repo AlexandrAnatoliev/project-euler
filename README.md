@@ -2,11 +2,11 @@
 
   <a id="english"></a>
   <h1>Welcome to Project Euler</h1>
-  <p>A project designed to help developers learn and practice Java</p>
+  <p>A project designed to help developers learn and practice various programming languages</p>
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.1.5](https://img.shields.io/badge/Version-0.1.5-orange.svg)
+  ![Version 0.1.6](https://img.shields.io/badge/Version-0.1.6-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
   [![PRs Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
@@ -24,7 +24,7 @@
       of a computer and programming skills will 
       be required to solve most problems.
       <br><br>
-      Practice Java coding by solving Project Euler problems and 
+      Practice coding by solving Project Euler problems and 
       make your first open-source contribution through a pull request! 
   </p>
 </div>
@@ -182,21 +182,21 @@ to get more info about the issue.
 
 Create directory for your solution in format:
 ```
-Solution[problem number]-[your github nickname]/
+[your github nickname]-[your language]/
 ```
 
 For example:
 ```
 project-euler 
 ├── Problem1/
-│   ├── Solution1-User1/
-│   ├── Solution1-Username2/
-│   ├── Solution1-IvanIvanov/
+│   ├── User1-cpp/
+│   ├── Username2-php/
+│   ├── IvanIvanov-java/
 │   │     ^
 │   │     └── directory for your solution
 │   └── README.md
 ├── Problem2/
-│   ├── Solution2-User1/
+│   ├── User1-golang/
 │   └── README.md
 └── README.md
 ```
@@ -204,42 +204,6 @@ After that you are ready to start solving!
 
 Add your source files inside 
 (Adding README.md is appreciated)  
-
-Please keep the repository organized by 
-following these formats:
-
-```
-Solution1-YourGithubName/
-├── Main.java       // Your source code
-└── README.md       // (Optional) Short description or usage guide 
-```   
-
-Or (some classes):
-
-```
-Solution1-YourGithubName/
-├── src/           // Your source code
-│   ├── Class1.java
-│   ├── Class2.java
-│   └── Main.java
-└── README.md      
-```   
-
-Or (add tests):
-
-```
-Solution1-YourGithubName/
-├── src/           
-│   ├── main/           // Your source code
-│   │   ├── Class1.java
-│   │   ├── Class2.java
-│   │   └── Main.java
-│   └── test/           // (Optional) tests 
-│       ├── Class1Test.java
-│       ├── Class2Test.java
-│       └── MainTest.java
-└── README.md      
-```   
 
 _Note: Avoid unnecessary files (no compiled 
 binaries or IDE metadata) and  make sure your 
@@ -409,11 +373,11 @@ who contributed to this project!
 <div align="center">
   <a id="russian"></a>
   <h1>Добро пожаловать на Project Euler</h1>
-  <p>Проект, помогающий изучить и попрактиковать конструкции языка Java</p>
+  <p>Проект, помогающий изучить и по-практиковать конструкции различных языков программирования</p>
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.1.5](https://img.shields.io/badge/Version-0.1.5-orange.svg)
+  ![Version 0.1.6](https://img.shields.io/badge/Version-0.1.6-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
   [![PRs Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
@@ -428,7 +392,7 @@ who contributed to this project!
     большинство задач потребуют навыков программирования для их практической реализации.
     <br><br>
     Этот репозиторий предоставляет уникальную возможность:
-    <li>Попрактиковаться в решении задач Project Euler на Java</li>
+    <li>Попрактиковаться в решении задач Project Euler</li>
     <li>Поучаствовать в реальном open-source проекте</li>
     <li>Создать свой первый пул-реквест</li>
   </p>
@@ -586,64 +550,29 @@ project-euler
 
 Создайте директорию для Вашего решения в формате:
 ```
-Solution[номер задачи]-[Ваш github nickname]/
+[Ваш github nickname]-[your language]/
 ```
 
 Например:
 ```
 project-euler 
 ├── Problem1/
-│   ├── Solution1-User1/
-│   ├── Solution1-Username2/
-│   ├── Solution1-IvanIvanov/
+│   ├── User1-cpp/
+│   ├── Username2-php/
+│   ├── IvanIvanov-java/
 │   │     ^
 │   │     └── директория для Вашего решения
 │   └── README.md
 ├── Problem2/
-│   ├── Solution2-User1/
+│   ├── User1-golang/
 │   └── README.md
 └── README.md
 ```
+
 После этого Вы готовы решать задачу!
 
 Добавьте файлы с исходным кодом в Вашу директорию
 (Наличие README приветствуется)
-
-Пожалуйста, организуйте репозиторий придерживаясь
-одного из следующих форматов:
-
-```
-Solution1-YourGithubName/
-├── Main.java       // Ваш исходный код
-└── README.md       // (Опционально) короткое описание или гайд по использованию 
-```   
-
-Если код состоит из нескольких классов:
-
-```
-Solution1-YourGithubName/
-├── src/           // Ваш исходный код
-│   ├── Class1.java
-│   ├── Class2.java
-│   └── Main.java
-└── README.md      
-```   
-
-Если есть тесты:
-
-```
-Solution1-YourGithubName/
-├── src/           
-│   ├── main/           // Ваш исходный код
-│   │   ├── Class1.java
-│   │   ├── Class2.java
-│   │   └── Main.java
-│   └── test/           // (Опционально) тесты 
-│       ├── Class1Test.java
-│       ├── Class2Test.java
-│       └── MainTest.java
-└── README.md      
-```   
 
 _Примечание: Избегайте лишних файлов (бинарные 
 файлы или метаданные IDE) и проверьте что Ваша
