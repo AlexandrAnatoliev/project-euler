@@ -4,7 +4,7 @@
 
 ## Run
 ```
-/opt/lampp/bin/php Problem1/Solution1-php-AlexandrAnatoliev/solution1.php 
+/opt/lampp/bin/php Problem1/AlexandrAnatoliev-php/solution1.php 
 ```
 
 ## Expected Output
