@@ -6,7 +6,7 @@
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.2.0](https://img.shields.io/badge/Version-0.2.0-orange.svg)
+  ![Version 0.2.1](https://img.shields.io/badge/Version-0.2.1-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
   [![PRs Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
@@ -167,6 +167,7 @@ problem you solve.
 </div>
 
 1. [Multiples of 3 or 5](Problem1/README.md)
+1. [Even Fibonacci Numbers](Problem2/README.md)
 
 First, select the problem you want to solve 
 and open the `Problem` directory:
@@ -378,7 +379,7 @@ who contributed to this project!
 
   [![EN](https://img.shields.io/badge/English-🇬🇧-blue)](#english)
   [![RU](https://img.shields.io/badge/Русский-🇷🇺-red)](#russian)
-  ![Version 0.2.0](https://img.shields.io/badge/Version-0.2.0-orange.svg)
+  ![Version 0.2.1](https://img.shields.io/badge/Version-0.2.1-orange.svg)
   ![Stars](https://img.shields.io/github/stars/AlexandrAnatoliev/project-euler.svg?style=flat)
   ![Forks](https://img.shields.io/github/forks/AlexandrAnatoliev/project-euler.svg?style=flat)
   [![PRs Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/AlexandrAnatoliev/project-euler/pulls)
@@ -538,6 +539,7 @@ _Примечание: Рекомендую всегда создавать но
 </div>
 
 1. [Числа, кратные 3 или 5](Problem1/README.md)
+1. [Четные числа Фибоначчи](Problem2/README.md)
 
 Сначала, выберите задачу, которую Вы хотите решать
 и откройте ее директорию:
