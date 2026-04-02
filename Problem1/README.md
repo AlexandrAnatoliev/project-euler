@@ -48,7 +48,13 @@ git pull upstream master
 * Create a new branch with the command:
 
 ```bash
-git switch -c fix-issue
+git switch -c fix-issue-<issue number>
+```
+
+or
+
+```bash
+git switch -c <your-username>-<problem-number>
 ```
 
 * Navigate to the Problem1 directory from the root 
@@ -57,7 +63,7 @@ of your project.
 * Create a directory for your solution in the 
 format:
 ```
-Solution[problem number]-[your GitHub nickname]/
+<Your github nickname>-<your language>/
 ```
 
 When you are sure your solution runs properly  
@@ -71,14 +77,20 @@ git add files-that-you-changed
 - Commit your changes with the command:
 
 ```bash
-git commit -m "Fixed issue"
+git commit -m "Add solution for Problem 1 in Python"
 ```
 
 - Push changes to your fork (your GitHub 
 repository) with the command:
 
 ```bash
-git push origin fix-issue
+git push origin fix-issue-<issue number>
+```
+
+or 
+
+```bash
+git push origin <your-username>-<problem number>
 ```
 
 Check out [README.md](../README.md) for more 
@@ -137,14 +149,20 @@ git pull upstream master
 * Создайте новую ветку командой:
 
 ```bash
-git switch -c fix-issue
+git switch -c fix-issue-<issue number>
+```
+
+или
+
+```bash
+git switch -c <your-username>-<problem-number>
 ```
 
 * Перейдите в Problem1 директорию: 
 
 * Создайте директорию для Вашего решения в формате:
 ```
-Solution[problem number]-[your GitHub nickname]/
+<Your github nickname>-<your language>/
 ```
 
 Когда Вы уверены, что Ваше решение правильное
@@ -159,13 +177,19 @@ git add файлы-которые-вы-изменили
 - Сделайте коммит:
 
 ```bash
-git commit -m "Fixed issue"
+git commit -m "Add solution for Problem 1 in Python"
 ```
 
 - Отправьте изменения в Ваш форк (Ваш GitHub-репозиторий):
 
 ```bash
-git push origin fix-issue
+git push origin fix-issue-<issue number>
+```
+
+или 
+
+```bash
+git push origin <your-username>-<problem number>
 ```
 
 Посмотрите [README.md](../README.md), чтобы получить 
