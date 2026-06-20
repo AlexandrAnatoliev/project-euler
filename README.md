@@ -167,7 +167,8 @@ problem you solve.
 </div>
 
 1. [Multiples of 3 or 5](Problem1/README.md)
-1. [Even Fibonacci Numbers](Problem2/README.md)
+2. [Even Fibonacci Numbers](Problem2/README.md)
+3. [Largest Prime Factor](Problem3/README.md)
 
 First, select the problem you want to solve 
 and open the `Problem` directory:
@@ -539,7 +540,8 @@ _Примечание: Рекомендую всегда создавать но
 </div>
 
 1. [Числа, кратные 3 или 5](Problem1/README.md)
-1. [Четные числа Фибоначчи](Problem2/README.md)
+2. [Четные числа Фибоначчи](Problem2/README.md)
+3. [Наибольший простой делитель](Problem3/README.md)
 
 Сначала, выберите задачу, которую Вы хотите решать
 и откройте ее директорию:
