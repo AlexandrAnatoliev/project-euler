@@ -4,8 +4,8 @@ namespace Problem3AlexandrAnatoliev;
 
 class Solution {
   public function getMinPrimeDiv(
-    Integer $num, 
-    Integer $startNum
-  ): Integer {
+    int $num, 
+    int $startNum
+  ): int {
   }
 }
