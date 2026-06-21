@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Problem3AlexandrAnatoliev\\": "Problem3/AlexandrAnatoliev-php"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}
