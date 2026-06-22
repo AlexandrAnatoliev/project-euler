@@ -3,6 +3,11 @@
 namespace Problem3AlexandrAnatoliev;
 
 class Calc {
+  /**
+   * @param int $num      Checked number
+   * @param int $startDiv Start divider
+   * @return int          Min prime divider
+   */
   public function getMinPrimeDiv(
     int $num, 
     int $startDiv
@@ -25,6 +30,11 @@ class Calc {
     return 1;
   }
 
+  /**
+   * @param int $num      Checked number
+   * @param int $startDiv Start divider
+   * @return int          Max prime divider
+   */
   public function getMaxPrimeDiv(
     int $num,
     int $startDiv
