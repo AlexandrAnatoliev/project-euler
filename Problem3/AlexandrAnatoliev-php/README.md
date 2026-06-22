@@ -2,18 +2,18 @@
   <h1>Problem-3 "Largest Prime Factor"</h1>
 </div>
 
-## Run
-```
-php Problem3/AlexandrAnatoliev-php/Solution.php 
-```
-
 ## Run tests
 ```
 composer dump-autoload
-./vendor/bin/phpunit Problem3/AlexandrAnatoliev-php/t
+./vendor/bin/phpunit Problem3/AlexandrAnatoliev-php/tests
+```
+
+## Run
+```
+php Problem3/AlexandrAnatoliev-php/solution.php 
 ```
 
 ## Expected Output
 ```
-Answer = 4613732
+Answer: 6857
 ```
