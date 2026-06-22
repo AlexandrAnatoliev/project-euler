@@ -10,5 +10,7 @@ class SolutionTest extends TestCase
     $solution = new Solution();
     $this->assertEquals(3,
       $solution->getMinPrimeDiv(15, 2));
+    $this->assertEquals(71,
+      $solution->getMinPrimeDiv(600851475143, 2));
   }
 }
