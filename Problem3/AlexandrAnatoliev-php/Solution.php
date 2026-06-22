@@ -24,4 +24,17 @@ class Solution {
 
     return 1;
   }
+
+  public function getMaxPrimeDiv(
+    int $num,
+    int $startDiv
+  ): int {
+    $div = $startDiv;
+    do {
+      $div = $this->getMinPrimeDiv(
+        $num, $div);
+      $num = $num / $div;
+    } while($div != 1);
+    return $num;
+  }
 }
