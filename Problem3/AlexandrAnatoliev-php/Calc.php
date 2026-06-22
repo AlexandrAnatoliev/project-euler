@@ -9,10 +9,10 @@ class Calc {
    * @return int          Min prime divider
    */
   public function getMinPrimeDiv(
-    int $num, 
+    int $num,
     int $startDiv
   ): int {
-    if(($num % $startDiv == 0) 
+    if(($num % $startDiv == 0)
       && ($startDiv * $startDiv <= $num)) {
       return $startDiv;
     }

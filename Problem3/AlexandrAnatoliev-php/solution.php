@@ -1,6 +1,6 @@
 <?php
 
-require 'Calc.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
 use Problem3AlexandrAnatoliev\Calc;
 
 $calc   = new Calc();
