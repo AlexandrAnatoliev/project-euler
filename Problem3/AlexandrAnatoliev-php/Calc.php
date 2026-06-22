@@ -2,7 +2,7 @@
 
 namespace Problem3AlexandrAnatoliev;
 
-class Solution {
+class Calc {
   public function getMinPrimeDiv(
     int $num, 
     int $startDiv

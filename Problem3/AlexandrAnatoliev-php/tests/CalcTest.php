@@ -1,13 +1,13 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Problem3AlexandrAnatoliev\Solution;
+use Problem3AlexandrAnatoliev\Calc;
 
-class SolutionTest extends TestCase
+class CalcTest extends TestCase
 {
   public function testGetMinPrimeDiv(): void
   {
-    $solution = new Solution();
+    $solution = new Calc();
     $this->assertEquals(3,
       $solution->getMinPrimeDiv(15, 2));
     $this->assertEquals(71,
@@ -18,7 +18,7 @@ class SolutionTest extends TestCase
 
   public function testGetMaxPrimeDiv(): void
   {
-    $solution = new Solution();
+    $solution = new Calc();
     $this->assertEquals(5,
       $solution->getMaxPrimeDiv(15, 2));
     $this->assertEquals(6857,
