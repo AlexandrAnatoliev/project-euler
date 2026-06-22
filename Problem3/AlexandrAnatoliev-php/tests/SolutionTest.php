@@ -21,5 +21,7 @@ class SolutionTest extends TestCase
     $solution = new Solution();
     $this->assertEquals(5,
       $solution->getMaxPrimeDiv(15, 2));
+    $this->assertEquals(6857,
+      $solution->getMaxPrimeDiv(600851475143, 2));
   }
 }
